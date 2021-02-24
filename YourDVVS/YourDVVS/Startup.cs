@@ -8,6 +8,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using YourDVVS.DAL.Context;
+using Microsoft.EntityFrameworkCore;
 
 namespace YourDVVS
 {
@@ -24,6 +26,9 @@ namespace YourDVVS
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            services.AddDbContext<DAL.Context.AppContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("AppContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
