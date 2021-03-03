@@ -728,11 +728,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1\\source\\repos\\yourDVVS\\YourDVVS\\YourDVVS.csproj",
+      "projectUniqueName": "C:\\Users\\1\\Source\\Repos\\KrisstinaL\\YourDVVS1\\YourDVVS\\YourDVVS.csproj",
       "projectName": "YourDVVS",
-      "projectPath": "C:\\Users\\1\\source\\repos\\yourDVVS\\YourDVVS\\YourDVVS.csproj",
+      "projectPath": "C:\\Users\\1\\Source\\Repos\\KrisstinaL\\YourDVVS1\\YourDVVS\\YourDVVS.csproj",
       "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1\\source\\repos\\yourDVVS\\YourDVVS\\obj\\",
+      "outputPath": "C:\\Users\\1\\Source\\Repos\\KrisstinaL\\YourDVVS1\\YourDVVS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JwJPRjqvr1puUa224Z6wz5JsHs3WCjl0pUERDwnL/TH7t0PEL0uQ/UZiIAHnxYYa6S5r7A3znY/GLIyU9As7sA==",
+  "dgSpecHash": "1BBI1MOfdZe8fmge5XPUYSiL0f9DCqt5TUSSVYtDuXvXxsNHy/Ayy5DbtXpsGPw9AEKtY33FQntPMLK/MTrr3g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\1\\source\\repos\\yourDVVS\\DAL\\DAL.csproj",
+  "projectFilePath": "C:\\Users\\1\\Source\\Repos\\KrisstinaL\\YourDVVS1\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\1\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\1\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

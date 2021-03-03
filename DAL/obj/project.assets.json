@@ -1187,11 +1187,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1\\source\\repos\\yourDVVS\\DAL\\DAL.csproj",
+      "projectUniqueName": "C:\\Users\\1\\Source\\Repos\\KrisstinaL\\YourDVVS1\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "C:\\Users\\1\\source\\repos\\yourDVVS\\DAL\\DAL.csproj",
+      "projectPath": "C:\\Users\\1\\Source\\Repos\\KrisstinaL\\YourDVVS1\\DAL\\DAL.csproj",
       "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1\\source\\repos\\yourDVVS\\DAL\\obj\\",
+      "outputPath": "C:\\Users\\1\\Source\\Repos\\KrisstinaL\\YourDVVS1\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
