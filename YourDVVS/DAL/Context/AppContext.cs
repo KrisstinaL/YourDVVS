@@ -12,6 +12,11 @@ namespace DAL.Context
            => options.UseSqlite("Data Source=YourDVVS.db");
 
 
-        public DbSet<User> Users { get; set; }
+        public virtual DbSet<StudentsChoice> StudentsChoice { get; set; }
+        public virtual DbSet<Lecturer> Lecturer { get; set; }
+        public virtual DbSet<Period> Period { get; set; }
+        public virtual DbSet<Student> Student { get; set; }
+        public virtual DbSet<Subject> Subject { get; set; }
+        public virtual DbSet<User> User { get; set; }
     }
 }

@@ -9,8 +9,6 @@ namespace TestProject
         [Fact]
         public void Test1()
         {
-            Class1 a = new Class1();
-            a.calc();
         }
     }
 }

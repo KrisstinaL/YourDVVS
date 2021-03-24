@@ -52,6 +52,12 @@ C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\obj\x64\Debug
 C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\obj\x64\Debug\netcoreapp3.1\YourDVVS.dll
 C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\obj\x64\Debug\netcoreapp3.1\YourDVVS.pdb
 C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\obj\x64\Debug\netcoreapp3.1\YourDVVS.genruntimeconfig.cache
+C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\bin\x64\Debug\netcoreapp3.1\BLL.dll
+C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\bin\x64\Debug\netcoreapp3.1\DAL.dll
+C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\bin\x64\Debug\netcoreapp3.1\BLL.pdb
+C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\bin\x64\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\bin\x64\Debug\netcoreapp3.1\Npgsql.dll
+C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\bin\x64\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\bin\x64\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
 C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\bin\x64\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\bin\x64\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
@@ -75,7 +81,3 @@ C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\bin\x64\Debug
 C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\bin\x64\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\bin\x64\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\bin\x64\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\bin\x64\Debug\netcoreapp3.1\BLL.dll
-C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\bin\x64\Debug\netcoreapp3.1\DAL.dll
-C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\bin\x64\Debug\netcoreapp3.1\BLL.pdb
-C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\bin\x64\Debug\netcoreapp3.1\DAL.pdb
