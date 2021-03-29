@@ -6,7 +6,8 @@ namespace DAL.Entities
 {
     public partial class Student
     {
-        public int StudentId { get; set; }
+        public int Id { get; set; }
+        public int UserId { get; set; }
         public int? Course { get; set; }
 
         public virtual User User { get; set; }

@@ -10,7 +10,11 @@ namespace DAL.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder options)
            => options.UseSqlite("Data Source=YourDVVS.db");
-
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<User>().HasOne(x => x.Lecturer).WithOne(x => x.User).HasForeignKey<Lecturer>(x => x.UserId);
+            modelBuilder.Entity<User>().HasOne(x => x.Student).WithOne(x => x.User).HasForeignKey<Student>(x => x.UserId);
+        }
 
         public virtual DbSet<StudentsChoice> StudentsChoice { get; set; }
         public virtual DbSet<Lecturer> Lecturer { get; set; }

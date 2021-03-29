@@ -7,7 +7,7 @@ namespace DAL.Entities
 {
     public partial class User
     {
-        public int UserId { get; set; }
+        public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string MiddleName { get; set; }
@@ -15,7 +15,7 @@ namespace DAL.Entities
         public string Faculty { get; set; }
         public string Login { get; set; }
         public string Password { get; set; }
-        public virtual Lecturer Lecturers { get; set; }
-        public virtual Student Students { get; set; }
+        public virtual Lecturer Lecturer { get; set; }
+        public virtual Student Student { get; set; }
     }
 }
