@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace DAL.Migrations
 {
-    public partial class mig1 : Migration
+    public partial class MigrationName : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -11,10 +11,10 @@ namespace DAL.Migrations
                 name: "period",
                 columns: table => new
                 {
-                    period_id = table.Column<int>(type: "INTEGER", nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
-                    period_begining = table.Column<DateTime>(type: "TEXT", nullable: false),
-                    period_end = table.Column<DateTime>(type: "TEXT", nullable: false)
+                    period_id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    period_begining = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    period_end = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -25,15 +25,15 @@ namespace DAL.Migrations
                 name: "users",
                 columns: table => new
                 {
-                    user_id = table.Column<int>(type: "INTEGER", nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
-                    first_name = table.Column<string>(type: "TEXT", maxLength: 50, nullable: false),
-                    last_name = table.Column<string>(type: "TEXT", maxLength: 50, nullable: false),
-                    middle_name = table.Column<string>(type: "TEXT", maxLength: 50, nullable: false),
-                    role = table.Column<int>(type: "INTEGER", nullable: false),
-                    Faculty = table.Column<string>(type: "TEXT", nullable: true),
-                    login = table.Column<string>(type: "TEXT", maxLength: 255, nullable: false),
-                    password = table.Column<string>(type: "TEXT", maxLength: 50, nullable: true)
+                    user_id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    first_name = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    last_name = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    middle_name = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    role = table.Column<int>(type: "int", nullable: false),
+                    Faculty = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    login = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
+                    password = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: true)
                 },
                 constraints: table =>
                 {
@@ -44,8 +44,8 @@ namespace DAL.Migrations
                 name: "lecturers",
                 columns: table => new
                 {
-                    user_id = table.Column<int>(type: "INTEGER", nullable: false),
-                    Id = table.Column<int>(type: "INTEGER", nullable: false)
+                    user_id = table.Column<int>(type: "int", nullable: false),
+                    Id = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -62,9 +62,9 @@ namespace DAL.Migrations
                 name: "students",
                 columns: table => new
                 {
-                    user_id = table.Column<int>(type: "INTEGER", nullable: false),
-                    Id = table.Column<int>(type: "INTEGER", nullable: false),
-                    course = table.Column<int>(type: "INTEGER", nullable: true)
+                    user_id = table.Column<int>(type: "int", nullable: false),
+                    Id = table.Column<int>(type: "int", nullable: false),
+                    course = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -81,15 +81,15 @@ namespace DAL.Migrations
                 name: "subjects",
                 columns: table => new
                 {
-                    subject_id = table.Column<int>(type: "INTEGER", nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
-                    name = table.Column<string>(type: "TEXT", maxLength: 70, nullable: false),
-                    description = table.Column<string>(type: "TEXT", nullable: false),
-                    Faculty = table.Column<string>(type: "TEXT", nullable: true),
-                    lecturer_id = table.Column<int>(type: "INTEGER", nullable: false),
-                    number_of_students = table.Column<int>(type: "INTEGER", nullable: true),
-                    max_number_of_students = table.Column<int>(type: "INTEGER", nullable: false),
-                    semester = table.Column<int>(type: "INTEGER", nullable: true)
+                    subject_id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    name = table.Column<string>(type: "nvarchar(70)", maxLength: 70, nullable: false),
+                    description = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Faculty = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    lecturer_id = table.Column<int>(type: "int", nullable: false),
+                    number_of_students = table.Column<int>(type: "int", nullable: true),
+                    max_number_of_students = table.Column<int>(type: "int", nullable: false),
+                    semester = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -106,9 +106,9 @@ namespace DAL.Migrations
                 name: "choices",
                 columns: table => new
                 {
-                    user_id = table.Column<int>(type: "INTEGER", nullable: false),
-                    subject_id = table.Column<int>(type: "INTEGER", nullable: false),
-                    Id = table.Column<int>(type: "INTEGER", nullable: false)
+                    user_id = table.Column<int>(type: "int", nullable: false),
+                    subject_id = table.Column<int>(type: "int", nullable: false),
+                    Id = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {

@@ -10,3 +10,9 @@ C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\DAL\obj\x64\Debug\netc
 C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\DAL\obj\x64\Debug\netcoreapp3.1\DAL.pdb
 C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\DAL\obj\x64\Debug\netcoreapp3.1\DAL.genruntimeconfig.cache
 C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\DAL\obj\x64\Debug\netcoreapp3.1\DAL.csprojAssemblyReference.cache
+C:\Users\ІРА\source\repos\YourDVVS111\YourDVVS\DAL\obj\x64\Debug\netcoreapp3.1\DAL.csprojAssemblyReference.cache
+C:\Users\ІРА\source\repos\YourDVVS111\YourDVVS\DAL\obj\x64\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+C:\Users\ІРА\source\repos\YourDVVS111\YourDVVS\DAL\obj\x64\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+C:\Users\ІРА\source\repos\YourDVVS111\YourDVVS\DAL\obj\x64\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+C:\Users\ІРА\source\repos\YourDVVS111\YourDVVS\DAL\obj\x64\Debug\netcoreapp3.1\DAL.dll
+C:\Users\ІРА\source\repos\YourDVVS111\YourDVVS\DAL\obj\x64\Debug\netcoreapp3.1\DAL.pdb

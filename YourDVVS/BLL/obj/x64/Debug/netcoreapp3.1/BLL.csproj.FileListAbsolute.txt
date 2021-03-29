@@ -7,3 +7,12 @@ C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\BLL\obj\x64\Debug\netc
 C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\BLL\obj\x64\Debug\netcoreapp3.1\BLL.csproj.CoreCompileInputs.cache
 C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\BLL\obj\x64\Debug\netcoreapp3.1\BLL.dll
 C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\BLL\obj\x64\Debug\netcoreapp3.1\BLL.pdb
+C:\Users\ІРА\source\repos\YourDVVS111\YourDVVS\BLL\bin\x64\Debug\netcoreapp3.1\BLL.deps.json
+C:\Users\ІРА\source\repos\YourDVVS111\YourDVVS\BLL\bin\x64\Debug\netcoreapp3.1\BLL.dll
+C:\Users\ІРА\source\repos\YourDVVS111\YourDVVS\BLL\bin\x64\Debug\netcoreapp3.1\BLL.pdb
+C:\Users\ІРА\source\repos\YourDVVS111\YourDVVS\BLL\obj\x64\Debug\netcoreapp3.1\BLL.csprojAssemblyReference.cache
+C:\Users\ІРА\source\repos\YourDVVS111\YourDVVS\BLL\obj\x64\Debug\netcoreapp3.1\BLL.AssemblyInfoInputs.cache
+C:\Users\ІРА\source\repos\YourDVVS111\YourDVVS\BLL\obj\x64\Debug\netcoreapp3.1\BLL.AssemblyInfo.cs
+C:\Users\ІРА\source\repos\YourDVVS111\YourDVVS\BLL\obj\x64\Debug\netcoreapp3.1\BLL.csproj.CoreCompileInputs.cache
+C:\Users\ІРА\source\repos\YourDVVS111\YourDVVS\BLL\obj\x64\Debug\netcoreapp3.1\BLL.dll
+C:\Users\ІРА\source\repos\YourDVVS111\YourDVVS\BLL\obj\x64\Debug\netcoreapp3.1\BLL.pdb

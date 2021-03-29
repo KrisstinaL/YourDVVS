@@ -8,10 +8,10 @@ namespace DAL.Context
 {
     public class AppContext : DbContext
     {
-        protected override void OnConfiguring(DbContextOptionsBuilder options)
+        public AppContext(DbContextOptions<AppContext> options)
+            : base(options)
         {
-            options.UseSqlite("Data Source=YourDVVS.db");
-
+            Database.EnsureCreated();
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
