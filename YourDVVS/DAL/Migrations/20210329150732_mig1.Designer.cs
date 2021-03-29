@@ -8,9 +8,9 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace DAL.Migrations
 {
-    [DbContext(typeof(AppContext))]
-    [Migration("20210325155644_InatialCreate")]
-    partial class InatialCreate
+    [DbContext(typeof(System.AppContext))]
+    [Migration("20210329150732_mig1")]
+    partial class mig1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -20,143 +20,183 @@ namespace DAL.Migrations
 
             modelBuilder.Entity("DAL.Entities.Lecturer", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
                     b.Property<int>("UserId")
+                        .HasColumnType("INTEGER")
+                        .HasColumnName("user_id");
+
+                    b.Property<int>("Id")
                         .HasColumnType("INTEGER");
 
-                    b.HasKey("Id");
+                    b.HasKey("UserId")
+                        .HasName("lecturer_pkey");
 
-                    b.HasIndex("UserId")
-                        .IsUnique();
-
-                    b.ToTable("Lecturer");
+                    b.ToTable("lecturers");
                 });
 
             modelBuilder.Entity("DAL.Entities.Period", b =>
                 {
                     b.Property<int>("PeriodId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
+                        .HasColumnType("INTEGER")
+                        .HasColumnName("period_id");
 
                     b.Property<DateTime>("PeriodBegining")
-                        .HasColumnType("TEXT");
+                        .HasColumnType("TEXT")
+                        .HasColumnName("period_begining");
 
                     b.Property<DateTime>("PeriodEnd")
-                        .HasColumnType("TEXT");
+                        .HasColumnType("TEXT")
+                        .HasColumnName("period_end");
 
                     b.HasKey("PeriodId");
 
-                    b.ToTable("Period");
+                    b.ToTable("period");
                 });
 
             modelBuilder.Entity("DAL.Entities.Student", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
+                    b.Property<int>("UserId")
+                        .HasColumnType("INTEGER")
+                        .HasColumnName("user_id");
 
                     b.Property<int?>("Course")
+                        .HasColumnType("INTEGER")
+                        .HasColumnName("course");
+
+                    b.Property<int>("Id")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("UserId")
-                        .HasColumnType("INTEGER");
-
-                    b.HasKey("Id");
+                    b.HasKey("UserId")
+                        .HasName("student_pkey");
 
                     b.HasIndex("UserId")
-                        .IsUnique();
+                        .HasDatabaseName("fki_user_id_fkey");
 
-                    b.ToTable("Student");
+                    b.ToTable("students");
                 });
 
             modelBuilder.Entity("DAL.Entities.StudentsChoice", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
+                    b.Property<int>("UserId")
+                        .HasColumnType("INTEGER")
+                        .HasColumnName("user_id");
 
                     b.Property<int>("SubjectId")
+                        .HasColumnType("INTEGER")
+                        .HasColumnName("subject_id");
+
+                    b.Property<int>("Id")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("UserId")
-                        .HasColumnType("INTEGER");
+                    b.HasKey("UserId", "SubjectId")
+                        .HasName("choises_pkey");
 
-                    b.HasKey("Id");
+                    b.HasIndex("SubjectId")
+                        .HasDatabaseName("fki_choises_subject_subject_id");
 
-                    b.HasIndex("SubjectId");
+                    b.HasIndex("UserId")
+                        .HasDatabaseName("fki_choises_student_user_id");
 
-                    b.HasIndex("UserId");
-
-                    b.ToTable("StudentsChoice");
+                    b.ToTable("choices");
                 });
 
             modelBuilder.Entity("DAL.Entities.Subject", b =>
                 {
                     b.Property<int>("SubjectId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
+                        .HasColumnType("INTEGER")
+                        .HasColumnName("subject_id");
 
                     b.Property<string>("Description")
-                        .HasColumnType("TEXT");
+                        .IsRequired()
+                        .HasColumnType("TEXT")
+                        .HasColumnName("description");
 
                     b.Property<string>("Faculty")
                         .HasColumnType("TEXT");
 
                     b.Property<int>("LecturerId")
-                        .HasColumnType("INTEGER");
+                        .HasColumnType("INTEGER")
+                        .HasColumnName("lecturer_id");
 
                     b.Property<int>("MaxNumberOfStudents")
-                        .HasColumnType("INTEGER");
+                        .HasColumnType("INTEGER")
+                        .HasColumnName("max_number_of_students");
 
                     b.Property<string>("Name")
-                        .HasColumnType("TEXT");
+                        .IsRequired()
+                        .HasMaxLength(70)
+                        .HasColumnType("TEXT")
+                        .HasColumnName("name");
 
                     b.Property<int?>("NumberOfStudents")
-                        .HasColumnType("INTEGER");
+                        .HasColumnType("INTEGER")
+                        .HasColumnName("number_of_students");
 
                     b.Property<int?>("Semester")
-                        .HasColumnType("INTEGER");
+                        .HasColumnType("INTEGER")
+                        .HasColumnName("semester");
 
-                    b.HasKey("SubjectId");
+                    b.HasKey("SubjectId")
+                        .HasName("subjects_pkey");
 
-                    b.HasIndex("LecturerId");
+                    b.HasIndex("LecturerId")
+                        .HasDatabaseName("fki_subject_lecturer_user_id");
 
-                    b.ToTable("Subject");
+                    b.ToTable("subjects");
                 });
 
             modelBuilder.Entity("DAL.Entities.User", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
+                        .HasColumnType("INTEGER")
+                        .HasColumnName("user_id");
 
                     b.Property<string>("Faculty")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("FirstName")
-                        .HasColumnType("TEXT");
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("TEXT")
+                        .HasColumnName("first_name");
 
                     b.Property<string>("LastName")
-                        .HasColumnType("TEXT");
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("TEXT")
+                        .HasColumnName("last_name");
 
                     b.Property<string>("Login")
-                        .HasColumnType("TEXT");
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("TEXT")
+                        .HasColumnName("login");
 
                     b.Property<string>("MiddleName")
-                        .HasColumnType("TEXT");
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("TEXT")
+                        .HasColumnName("middle_name");
 
                     b.Property<string>("Password")
-                        .HasColumnType("TEXT");
+                        .HasMaxLength(50)
+                        .HasColumnType("TEXT")
+                        .HasColumnName("password");
 
                     b.Property<int>("Role")
-                        .HasColumnType("INTEGER");
+                        .HasColumnType("INTEGER")
+                        .HasColumnName("role");
 
-                    b.HasKey("Id");
+                    b.HasKey("Id")
+                        .HasName("users_pkey");
 
-                    b.ToTable("User");
+                    b.HasIndex("Login")
+                        .IsUnique()
+                        .HasDatabaseName("users_login_key");
+
+                    b.ToTable("users");
                 });
 
             modelBuilder.Entity("DAL.Entities.Lecturer", b =>
@@ -164,7 +204,7 @@ namespace DAL.Migrations
                     b.HasOne("DAL.Entities.User", "User")
                         .WithOne("Lecturer")
                         .HasForeignKey("DAL.Entities.Lecturer", "UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .HasConstraintName("lecturer_user_user_id_fkey")
                         .IsRequired();
 
                     b.Navigation("User");
@@ -175,7 +215,7 @@ namespace DAL.Migrations
                     b.HasOne("DAL.Entities.User", "User")
                         .WithOne("Student")
                         .HasForeignKey("DAL.Entities.Student", "UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .HasConstraintName("student_user_user_id_fkey")
                         .IsRequired();
 
                     b.Navigation("User");
@@ -186,13 +226,13 @@ namespace DAL.Migrations
                     b.HasOne("DAL.Entities.Subject", "Subject")
                         .WithMany("StudentsChoices")
                         .HasForeignKey("SubjectId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .HasConstraintName("choises_subject_subject_id")
                         .IsRequired();
 
                     b.HasOne("DAL.Entities.Student", "User")
                         .WithMany("StudentsChoices")
                         .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .HasConstraintName("choises_student_user_id")
                         .IsRequired();
 
                     b.Navigation("Subject");
