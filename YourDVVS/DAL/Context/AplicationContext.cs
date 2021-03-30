@@ -6,13 +6,15 @@ using System.Text;
 
 namespace DAL.Context
 {
-    public class AppContext : DbContext
+    public class AplicationContext : DbContext
     {
-        public AppContext(DbContextOptions<AppContext> options)
+        protected override void OnConfiguring(DbContextOptionsBuilder options)
+            => options.UseSqlite("FileName=yourDVVS.db");
+        /*public AppContext(DbContextOptions<AppContext> options)
             : base(options)
         {
             Database.EnsureCreated();
-        }
+        }*/
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

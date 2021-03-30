@@ -3,30 +3,27 @@ using System;
 using DAL.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace DAL.Migrations
 {
-    [DbContext(typeof(System.AppContext))]
-    partial class AppContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(AplicationContext))]
+    partial class AplicationContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("Relational:MaxIdentifierLength", 128)
-                .HasAnnotation("ProductVersion", "5.0.4")
-                .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                .HasAnnotation("ProductVersion", "5.0.4");
 
             modelBuilder.Entity("DAL.Entities.Lecturer", b =>
                 {
                     b.Property<int>("UserId")
-                        .HasColumnType("int")
+                        .HasColumnType("INTEGER")
                         .HasColumnName("user_id");
 
                     b.Property<int>("Id")
-                        .HasColumnType("int");
+                        .HasColumnType("INTEGER");
 
                     b.HasKey("UserId")
                         .HasName("lecturer_pkey");
@@ -38,16 +35,15 @@ namespace DAL.Migrations
                 {
                     b.Property<int>("PeriodId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnName("period_id")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                        .HasColumnType("INTEGER")
+                        .HasColumnName("period_id");
 
                     b.Property<DateTime>("PeriodBegining")
-                        .HasColumnType("datetime2")
+                        .HasColumnType("TEXT")
                         .HasColumnName("period_begining");
 
                     b.Property<DateTime>("PeriodEnd")
-                        .HasColumnType("datetime2")
+                        .HasColumnType("TEXT")
                         .HasColumnName("period_end");
 
                     b.HasKey("PeriodId");
@@ -58,15 +54,15 @@ namespace DAL.Migrations
             modelBuilder.Entity("DAL.Entities.Student", b =>
                 {
                     b.Property<int>("UserId")
-                        .HasColumnType("int")
+                        .HasColumnType("INTEGER")
                         .HasColumnName("user_id");
 
                     b.Property<int?>("Course")
-                        .HasColumnType("int")
+                        .HasColumnType("INTEGER")
                         .HasColumnName("course");
 
                     b.Property<int>("Id")
-                        .HasColumnType("int");
+                        .HasColumnType("INTEGER");
 
                     b.HasKey("UserId")
                         .HasName("student_pkey");
@@ -80,15 +76,15 @@ namespace DAL.Migrations
             modelBuilder.Entity("DAL.Entities.StudentsChoice", b =>
                 {
                     b.Property<int>("UserId")
-                        .HasColumnType("int")
+                        .HasColumnType("INTEGER")
                         .HasColumnName("user_id");
 
                     b.Property<int>("SubjectId")
-                        .HasColumnType("int")
+                        .HasColumnType("INTEGER")
                         .HasColumnName("subject_id");
 
                     b.Property<int>("Id")
-                        .HasColumnType("int");
+                        .HasColumnType("INTEGER");
 
                     b.HasKey("UserId", "SubjectId")
                         .HasName("choises_pkey");
@@ -106,38 +102,37 @@ namespace DAL.Migrations
                 {
                     b.Property<int>("SubjectId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnName("subject_id")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                        .HasColumnType("INTEGER")
+                        .HasColumnName("subject_id");
 
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)")
+                        .HasColumnType("TEXT")
                         .HasColumnName("description");
 
                     b.Property<string>("Faculty")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("TEXT");
 
                     b.Property<int>("LecturerId")
-                        .HasColumnType("int")
+                        .HasColumnType("INTEGER")
                         .HasColumnName("lecturer_id");
 
                     b.Property<int>("MaxNumberOfStudents")
-                        .HasColumnType("int")
+                        .HasColumnType("INTEGER")
                         .HasColumnName("max_number_of_students");
 
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(70)
-                        .HasColumnType("nvarchar(70)")
+                        .HasColumnType("TEXT")
                         .HasColumnName("name");
 
                     b.Property<int?>("NumberOfStudents")
-                        .HasColumnType("int")
+                        .HasColumnType("INTEGER")
                         .HasColumnName("number_of_students");
 
                     b.Property<int?>("Semester")
-                        .HasColumnType("int")
+                        .HasColumnType("INTEGER")
                         .HasColumnName("semester");
 
                     b.HasKey("SubjectId")
@@ -153,44 +148,43 @@ namespace DAL.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnName("user_id")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                        .HasColumnType("INTEGER")
+                        .HasColumnName("user_id");
 
                     b.Property<string>("Faculty")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("FirstName")
                         .IsRequired()
                         .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)")
+                        .HasColumnType("TEXT")
                         .HasColumnName("first_name");
 
                     b.Property<string>("LastName")
                         .IsRequired()
                         .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)")
+                        .HasColumnType("TEXT")
                         .HasColumnName("last_name");
 
                     b.Property<string>("Login")
                         .IsRequired()
                         .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)")
+                        .HasColumnType("TEXT")
                         .HasColumnName("login");
 
                     b.Property<string>("MiddleName")
                         .IsRequired()
                         .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)")
+                        .HasColumnType("TEXT")
                         .HasColumnName("middle_name");
 
                     b.Property<string>("Password")
                         .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)")
+                        .HasColumnType("TEXT")
                         .HasColumnName("password");
 
                     b.Property<int>("Role")
-                        .HasColumnType("int")
+                        .HasColumnType("INTEGER")
                         .HasColumnName("role");
 
                     b.HasKey("Id")

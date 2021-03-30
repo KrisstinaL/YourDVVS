@@ -27,9 +27,9 @@ namespace YourDVVS
         public void ConfigureServices(IServiceCollection services)
         {
 
-            string connection = Configuration.GetConnectionString("DefaultConnection");
+            /*string connection = Configuration.GetConnectionString("DefaultConnection");
             services.AddDbContext<DAL.Context.AppContext>(options =>
-                options.UseSqlServer(connection));
+                options.UseSqlServer(connection));*/
             services.AddControllersWithViews();
 
         }
