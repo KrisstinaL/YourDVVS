@@ -5,9 +5,9 @@ using DAL.Entities;
 
 namespace BLL.Interfaces
 {
-    interface IAccountManagement
+    public interface IAccountManagement
     {
-        void AddNewUser(string lastName, string firstName, string middleName, int role, string login, string password);
+        void AddNewUser(string lastName, string firstName, string middleName, int role,string faculty, string login, string password);
         string GetRoleName(int roleValue);
         User GetLecturer(int id);
         public string[] GetLecturers();

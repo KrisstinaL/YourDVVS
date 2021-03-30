@@ -2934,6 +2934,10 @@
       "BLL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.4"
+        },
         "compile": {
           "bin/placeholder/BLL.dll": {}
         },
@@ -9321,11 +9325,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS5\\YourDVVS\\YourDVVS\\YourDVVS.csproj",
+      "projectUniqueName": "C:\\Users\\1\\Source\\Repos\\KrisstinaL\\YourDVVS7\\YourDVVS\\YourDVVS\\YourDVVS.csproj",
       "projectName": "YourDVVS",
-      "projectPath": "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS5\\YourDVVS\\YourDVVS\\YourDVVS.csproj",
+      "projectPath": "C:\\Users\\1\\Source\\Repos\\KrisstinaL\\YourDVVS7\\YourDVVS\\YourDVVS\\YourDVVS.csproj",
       "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS5\\YourDVVS\\YourDVVS\\obj\\",
+      "outputPath": "C:\\Users\\1\\Source\\Repos\\KrisstinaL\\YourDVVS7\\YourDVVS\\YourDVVS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -9344,13 +9348,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS5\\YourDVVS\\BLL\\BLL.csproj": {
-              "projectPath": "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS5\\YourDVVS\\BLL\\BLL.csproj"
+            "C:\\Users\\1\\Source\\Repos\\KrisstinaL\\YourDVVS7\\YourDVVS\\BLL\\BLL.csproj": {
+              "projectPath": "C:\\Users\\1\\Source\\Repos\\KrisstinaL\\YourDVVS7\\YourDVVS\\BLL\\BLL.csproj"
             },
-            "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS5\\YourDVVS\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS5\\YourDVVS\\DAL\\DAL.csproj"
+            "C:\\Users\\1\\Source\\Repos\\KrisstinaL\\YourDVVS7\\YourDVVS\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Users\\1\\Source\\Repos\\KrisstinaL\\YourDVVS7\\YourDVVS\\DAL\\DAL.csproj"
             }
           }
         }
@@ -9363,7 +9366,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",
@@ -9408,7 +9410,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.113\\RuntimeIdentifierGraph.json"
       }
     }
   }

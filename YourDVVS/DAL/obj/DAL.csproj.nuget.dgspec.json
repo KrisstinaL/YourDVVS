@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS5\\YourDVVS\\DAL\\DAL.csproj": {}
+    "C:\\Users\\1\\Source\\Repos\\KrisstinaL\\YourDVVS7\\YourDVVS\\DAL\\DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS5\\YourDVVS\\DAL\\DAL.csproj": {
+    "C:\\Users\\1\\Source\\Repos\\KrisstinaL\\YourDVVS7\\YourDVVS\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS5\\YourDVVS\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\1\\Source\\Repos\\KrisstinaL\\YourDVVS7\\YourDVVS\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS5\\YourDVVS\\DAL\\DAL.csproj",
+        "projectPath": "C:\\Users\\1\\Source\\Repos\\KrisstinaL\\YourDVVS7\\YourDVVS\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS5\\YourDVVS\\DAL\\obj\\",
+        "outputPath": "C:\\Users\\1\\Source\\Repos\\KrisstinaL\\YourDVVS7\\YourDVVS\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -30,7 +30,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -42,7 +41,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -88,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.113\\RuntimeIdentifierGraph.json"
         }
       }
     }

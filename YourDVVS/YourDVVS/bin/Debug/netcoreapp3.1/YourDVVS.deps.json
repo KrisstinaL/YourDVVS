@@ -2547,6 +2547,10 @@
         }
       },
       "BLL/1.0.0": {
+        "dependencies": {
+          "DAL": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.4"
+        },
         "runtime": {
           "BLL.dll": {}
         },
