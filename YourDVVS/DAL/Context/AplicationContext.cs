@@ -15,6 +15,9 @@ namespace DAL.Context
         {
             Database.EnsureCreated();
         }*/
+        public AplicationContext(DbContextOptions<AplicationContext> options)
+    : base(options)
+        { }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

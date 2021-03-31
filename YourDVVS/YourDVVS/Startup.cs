@@ -10,7 +10,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using DAL.Context;
-
+using BLL.Interfaces;
+using BLL.Services;
 
 namespace YourDVVS
 {
@@ -31,7 +32,10 @@ namespace YourDVVS
             services.AddDbContext<DAL.Context.AppContext>(options =>
                 options.UseSqlServer(connection));*/
             services.AddControllersWithViews();
-
+            services.AddDbContext<AplicationContext>(options => options.UseSqlite("FileName = yourDVVS.db"));
+            services.AddScoped<IAccountManagement, AccountManagement>();
+            services.AddScoped<ISubjectManagement, SubjectManagement>();
+            services.AddSignalR();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -58,7 +62,7 @@ namespace YourDVVS
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Login}/{action=Login}/{id?}");
             });
         }
     }
