@@ -1,35 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ІРА\\source\\repos\\YourDVVSs1\\YourDVVS\\TestProject\\TestProject.csproj": {}
+    "C:\\Users\\PC\\source\\repos\\YourDVVSULTIMA\\YourDVVS\\YourDVVS\\TestProject\\TestProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ІРА\\source\\repos\\YourDVVSs1\\YourDVVS\\BLL\\BLL.csproj": {
+    "C:\\Users\\PC\\source\\repos\\YourDVVSULTIMA\\YourDVVS\\YourDVVS\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ІРА\\source\\repos\\YourDVVSs1\\YourDVVS\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\source\\repos\\YourDVVSULTIMA\\YourDVVS\\YourDVVS\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "C:\\Users\\ІРА\\source\\repos\\YourDVVSs1\\YourDVVS\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\ІРА\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ІРА\\source\\repos\\YourDVVSs1\\YourDVVS\\BLL\\obj\\",
+        "projectPath": "C:\\Users\\PC\\source\\repos\\YourDVVSULTIMA\\YourDVVS\\YourDVVS\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\source\\repos\\YourDVVSULTIMA\\YourDVVS\\YourDVVS\\BLL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ІРА\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\ІРА\\source\\repos\\YourDVVSs1\\YourDVVS\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\ІРА\\source\\repos\\YourDVVSs1\\YourDVVS\\DAL\\DAL.csproj"
+              "C:\\Users\\PC\\source\\repos\\YourDVVSULTIMA\\YourDVVS\\YourDVVS\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\PC\\source\\repos\\YourDVVSULTIMA\\YourDVVS\\YourDVVS\\DAL\\DAL.csproj"
               }
             }
           }
@@ -64,28 +67,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ІРА\\source\\repos\\YourDVVSs1\\YourDVVS\\DAL\\DAL.csproj": {
+    "C:\\Users\\PC\\source\\repos\\YourDVVSULTIMA\\YourDVVS\\YourDVVS\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ІРА\\source\\repos\\YourDVVSs1\\YourDVVS\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\source\\repos\\YourDVVSULTIMA\\YourDVVS\\YourDVVS\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\ІРА\\source\\repos\\YourDVVSs1\\YourDVVS\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\ІРА\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ІРА\\source\\repos\\YourDVVSs1\\YourDVVS\\DAL\\obj\\",
+        "projectPath": "C:\\Users\\PC\\source\\repos\\YourDVVSULTIMA\\YourDVVS\\YourDVVS\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\source\\repos\\YourDVVSULTIMA\\YourDVVS\\YourDVVS\\DAL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ІРА\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -148,36 +154,42 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ІРА\\source\\repos\\YourDVVSs1\\YourDVVS\\TestProject\\TestProject.csproj": {
+    "C:\\Users\\PC\\source\\repos\\YourDVVSULTIMA\\YourDVVS\\YourDVVS\\TestProject\\TestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ІРА\\source\\repos\\YourDVVSs1\\YourDVVS\\TestProject\\TestProject.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\source\\repos\\YourDVVSULTIMA\\YourDVVS\\YourDVVS\\TestProject\\TestProject.csproj",
         "projectName": "TestProject",
-        "projectPath": "C:\\Users\\ІРА\\source\\repos\\YourDVVSs1\\YourDVVS\\TestProject\\TestProject.csproj",
-        "packagesPath": "C:\\Users\\ІРА\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ІРА\\source\\repos\\YourDVVSs1\\YourDVVS\\TestProject\\obj\\",
+        "projectPath": "C:\\Users\\PC\\source\\repos\\YourDVVSULTIMA\\YourDVVS\\YourDVVS\\TestProject\\TestProject.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\source\\repos\\YourDVVSULTIMA\\YourDVVS\\YourDVVS\\TestProject\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ІРА\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\ІРА\\source\\repos\\YourDVVSs1\\YourDVVS\\BLL\\BLL.csproj": {
-                "projectPath": "C:\\Users\\ІРА\\source\\repos\\YourDVVSs1\\YourDVVS\\BLL\\BLL.csproj"
+              "C:\\Users\\PC\\source\\repos\\YourDVVSULTIMA\\YourDVVS\\YourDVVS\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\PC\\source\\repos\\YourDVVSULTIMA\\YourDVVS\\YourDVVS\\BLL\\BLL.csproj"
+              },
+              "C:\\Users\\PC\\source\\repos\\YourDVVSULTIMA\\YourDVVS\\YourDVVS\\YourDVVS\\YourDVVS.csproj": {
+                "projectPath": "C:\\Users\\PC\\source\\repos\\YourDVVSULTIMA\\YourDVVS\\YourDVVS\\YourDVVS\\YourDVVS.csproj"
               }
             }
           }
@@ -192,9 +204,9 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "Fluent.Infrastructure": {
+            "Autofac.Extras.Moq": {
               "target": "Package",
-              "version": "[2.0.0-beta-01, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.AspNet.Mvc": {
               "target": "Package",
@@ -206,7 +218,7 @@
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[16.7.1, )"
+              "version": "[16.9.4, )"
             },
             "Moq": {
               "target": "Package",
@@ -216,7 +228,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[1.3.0, )"
+              "version": "[3.0.3, )"
             },
             "xunit": {
               "target": "Package",
@@ -244,7 +256,100 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\PC\\source\\repos\\YourDVVSULTIMA\\YourDVVS\\YourDVVS\\YourDVVS\\YourDVVS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PC\\source\\repos\\YourDVVSULTIMA\\YourDVVS\\YourDVVS\\YourDVVS\\YourDVVS.csproj",
+        "projectName": "YourDVVS",
+        "projectPath": "C:\\Users\\PC\\source\\repos\\YourDVVSULTIMA\\YourDVVS\\YourDVVS\\YourDVVS\\YourDVVS.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\source\\repos\\YourDVVSULTIMA\\YourDVVS\\YourDVVS\\YourDVVS\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\PC\\source\\repos\\YourDVVSULTIMA\\YourDVVS\\YourDVVS\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\PC\\source\\repos\\YourDVVSULTIMA\\YourDVVS\\YourDVVS\\BLL\\BLL.csproj"
+              },
+              "C:\\Users\\PC\\source\\repos\\YourDVVSULTIMA\\YourDVVS\\YourDVVS\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\PC\\source\\repos\\YourDVVSULTIMA\\YourDVVS\\YourDVVS\\DAL\\DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.13, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.13, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
