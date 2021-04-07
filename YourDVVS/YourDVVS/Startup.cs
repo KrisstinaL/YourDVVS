@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 using DAL.Context;
 using BLL.Interfaces;
 using BLL.Services;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace YourDVVS
 {
@@ -27,7 +28,12 @@ namespace YourDVVS
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+               .AddCookie(options =>
+               {
+                   options.LoginPath = new Microsoft.AspNetCore.Http.PathString("/Login");
+                   options.ExpireTimeSpan = TimeSpan.FromDays(1);
+               });
             /*string connection = Configuration.GetConnectionString("DefaultConnection");
             services.AddDbContext<DAL.Context.AppContext>(options =>
                 options.UseSqlServer(connection));*/

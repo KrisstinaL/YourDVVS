@@ -56,3 +56,15 @@ C:\Users\ІРА\source\repos\YourDVVSs1\YourDVVS\DAL\obj\Debug\netcoreapp3.1\DAL
 C:\Users\ІРА\source\repos\YourDVVSs1\YourDVVS\DAL\obj\Debug\netcoreapp3.1\DAL.dll
 C:\Users\ІРА\source\repos\YourDVVSs1\YourDVVS\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
 C:\Users\ІРА\source\repos\YourDVVSs1\YourDVVS\DAL\obj\Debug\netcoreapp3.1\DAL.genruntimeconfig.cache
+C:\Users\ІРА\source\repos\YourDVVSq\YourDVVS\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+C:\Users\ІРА\source\repos\YourDVVSq\YourDVVS\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.json
+C:\Users\ІРА\source\repos\YourDVVSq\YourDVVS\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.dev.json
+C:\Users\ІРА\source\repos\YourDVVSq\YourDVVS\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\ІРА\source\repos\YourDVVSq\YourDVVS\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\ІРА\source\repos\YourDVVSq\YourDVVS\DAL\obj\Debug\netcoreapp3.1\DAL.csprojAssemblyReference.cache
+C:\Users\ІРА\source\repos\YourDVVSq\YourDVVS\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+C:\Users\ІРА\source\repos\YourDVVSq\YourDVVS\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+C:\Users\ІРА\source\repos\YourDVVSq\YourDVVS\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+C:\Users\ІРА\source\repos\YourDVVSq\YourDVVS\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+C:\Users\ІРА\source\repos\YourDVVSq\YourDVVS\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\ІРА\source\repos\YourDVVSq\YourDVVS\DAL\obj\Debug\netcoreapp3.1\DAL.genruntimeconfig.cache
