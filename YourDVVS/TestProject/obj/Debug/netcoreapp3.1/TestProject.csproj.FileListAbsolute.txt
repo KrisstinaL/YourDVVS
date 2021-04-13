@@ -464,4 +464,13 @@ C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\TestProject\bin\Debug\
 C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\TestProject\bin\Debug\netcoreapp3.1\YourDVVS.dll
 C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\TestProject\bin\Debug\netcoreapp3.1\YourDVVS.pdb
 C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\TestProject\bin\Debug\netcoreapp3.1\DAL.pdb
-C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\TestProject\bin\Debug\netcoreapp3.1\YourDVVS.StaticWebAssets.xml
+C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\TestProject\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\TestProject\bin\Debug\netcoreapp3.1\Serilog.dll
+C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\TestProject\bin\Debug\netcoreapp3.1\Serilog.AspNetCore.dll
+C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\TestProject\bin\Debug\netcoreapp3.1\Serilog.Extensions.Hosting.dll
+C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\TestProject\bin\Debug\netcoreapp3.1\Serilog.Extensions.Logging.dll
+C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\TestProject\bin\Debug\netcoreapp3.1\Serilog.Formatting.Compact.dll
+C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\TestProject\bin\Debug\netcoreapp3.1\Serilog.Settings.Configuration.dll
+C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\TestProject\bin\Debug\netcoreapp3.1\Serilog.Sinks.Console.dll
+C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\TestProject\bin\Debug\netcoreapp3.1\Serilog.Sinks.Debug.dll
+C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\TestProject\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll

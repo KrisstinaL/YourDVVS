@@ -961,7 +961,6 @@ C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\bin\Debug\net
 C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\obj\Debug\netcoreapp3.1\Razor\Views\Account\AddUser.cshtml.g.cs
 C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\obj\Debug\netcoreapp3.1\Razor\Views\Account\Profile.cshtml.g.cs
 C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\obj\Debug\netcoreapp3.1\Razor\Views\Login\Error.cshtml.g.cs
 C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\obj\Debug\netcoreapp3.1\Razor\Views\Login\Login.cshtml.g.cs
@@ -1176,3 +1175,17 @@ C:\Users\ІРА\source\repos\YourDVVSq\YourDVVS\YourDVVS\bin\Debug\netcoreapp3.1
 C:\Users\ІРА\source\repos\YourDVVSq\YourDVVS\YourDVVS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutAdmin.cshtml.g.cs
 C:\Users\ІРА\source\repos\YourDVVSq\YourDVVS\YourDVVS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutLecturer.cshtml.g.cs
 C:\Users\ІРА\source\repos\YourDVVSq\YourDVVS\YourDVVS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutStudent.cshtml.g.cs
+C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\bin\Debug\netcoreapp3.1\Serilog.dll
+C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\bin\Debug\netcoreapp3.1\Serilog.AspNetCore.dll
+C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\bin\Debug\netcoreapp3.1\Serilog.Extensions.Hosting.dll
+C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\bin\Debug\netcoreapp3.1\Serilog.Extensions.Logging.dll
+C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\bin\Debug\netcoreapp3.1\Serilog.Formatting.Compact.dll
+C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\bin\Debug\netcoreapp3.1\Serilog.Settings.Configuration.dll
+C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\bin\Debug\netcoreapp3.1\Serilog.Sinks.Console.dll
+C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\bin\Debug\netcoreapp3.1\Serilog.Sinks.Debug.dll
+C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
+C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutAdmin.cshtml.g.cs
+C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutLecturer.cshtml.g.cs
+C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutStudent.cshtml.g.cs
+C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\obj\Debug\netcoreapp3.1\Razor\Views\Account\AddNewUser.cshtml.g.cs

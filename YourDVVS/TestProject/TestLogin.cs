@@ -84,27 +84,23 @@ namespace TestProject
                     }
                 };
         //OddTest
-        //ToDelete
+        //ToDelete\
+        Mock<DbSet<User>> mockSet = new Mock<DbSet<User>>();
+
         [Theory]
-        [InlineData("testLogin", "testFirstName", "testMiddlrName", "testLastName")]
-        [InlineData("testLogin1", "testFirstName1", "testMiddlrName1", "testLastName1")]
-        public void GetUserTest(string actualLogin, string expectedFirstName, string expectedMiddleName, string expectedLastName)
+        [InlineData("testLogin", 1)]
+        [InlineData("testLogin1", 2)]
+        public void GetUserTest(string actualLogin, int expectedId)
         {
             using (var mock = AutoMock.GetLoose())
             {
                 IQueryable<User> userlist = TestUsers.AsQueryable();
-                var mockSet = new Mock<DbSet<User>>();
                 mockSet.As<IQueryable<User>>().Setup(x => x.Provider).Returns(userlist.Provider);
                 mockSet.As<IQueryable<User>>().Setup(x => x.Expression).Returns(userlist.Expression);
-                //mockSet.As<IQueryable<Users>>().Setup(x => x.ElementType).Returns(userlist.ElementType);
-                // mockSet.As<IQueryable<Users>>().Setup(x => x.GetEnumerator()).Returns(userlist.GetEnumerator());
                 mock.Mock<AplicationContext>().SetupGet(x => x.User).Returns(mockSet.Object);
                 var AccountManagementMock = mock.Create<AccountManagement>();
                 var actualUser = AccountManagementMock.GetUser(actualLogin);
-                Console.WriteLine(expectedFirstName + "||" + actualUser.FirstName);
-                Assert.Equal(expectedFirstName, actualUser.FirstName);
-                Assert.Equal(expectedMiddleName, actualUser.MiddleName);
-                Assert.Equal(expectedLastName, actualUser.LastName);
+                Assert.Equal(expectedId, actualUser.Id);
             }
         }
         [Fact]
@@ -113,7 +109,6 @@ namespace TestProject
             using (var mock = AutoMock.GetLoose())
             {
                 IQueryable<User> userlist = TestUsers.AsQueryable();
-                var mockSet = new Mock<DbSet<User>>();
                 mockSet.As<IQueryable<User>>().Setup(x => x.Provider).Returns(userlist.Provider);
                 mockSet.As<IQueryable<User>>().Setup(x => x.Expression).Returns(userlist.Expression);
                 mock.Mock<AplicationContext>().SetupGet(x => x.User).Returns(mockSet.Object);
@@ -131,7 +126,6 @@ namespace TestProject
             using (var mock = AutoMock.GetLoose())
             {
                 IQueryable<User> userlist = TestUsers.AsQueryable();
-                var mockSet = new Mock<DbSet<User>>();
                 mockSet.As<IQueryable<User>>().Setup(x => x.Provider).Returns(userlist.Provider);
                 mockSet.As<IQueryable<User>>().Setup(x => x.Expression).Returns(userlist.Expression);
                 mock.Mock<AplicationContext>().SetupGet(x => x.User).Returns(mockSet.Object);
