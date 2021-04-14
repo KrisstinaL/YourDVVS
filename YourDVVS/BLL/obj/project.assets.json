@@ -518,6 +518,9 @@
           "lib/netstandard2.1/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
         }
       },
+      "Roslynator.Analyzers/3.1.0": {
+        "type": "package"
+      },
       "runtime.native.System/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -530,6 +533,9 @@
         "runtime": {
           "lib/netstandard1.0/_._": {}
         }
+      },
+      "SonarAnalyzer.CSharp/8.20.0.28934": {
+        "type": "package"
       },
       "SQLitePCLRaw.bundle_e_sqlite3/2.0.4": {
         "type": "package",
@@ -633,6 +639,9 @@
         "runtime": {
           "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
         }
+      },
+      "StyleCop.Analyzers/1.1.118": {
+        "type": "package"
       },
       "System.Collections/4.3.0": {
         "type": "package",
@@ -2539,6 +2548,29 @@
         "postgresql.png"
       ]
     },
+    "Roslynator.Analyzers/3.1.0": {
+      "sha512": "K9qNjlkXqKd/8zOfedaNcbqPLFGZL0I8pTKENbwlrCJ4dm0b5N4ci2h4x3fpcwr5433ievJJXlRSr4JBQQKsvw==",
+      "type": "package",
+      "path": "roslynator.analyzers/3.1.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/Roslynator.CSharp.Analyzers.CodeFixes.dll",
+        "analyzers/dotnet/cs/Roslynator.CSharp.Analyzers.dll",
+        "analyzers/dotnet/cs/Roslynator.CSharp.Workspaces.dll",
+        "analyzers/dotnet/cs/Roslynator.CSharp.dll",
+        "analyzers/dotnet/cs/Roslynator.Common.dll",
+        "analyzers/dotnet/cs/Roslynator.Core.dll",
+        "analyzers/dotnet/cs/Roslynator.Workspaces.Common.dll",
+        "analyzers/dotnet/cs/Roslynator.Workspaces.Core.dll",
+        "icon.png",
+        "roslynator.analyzers.3.1.0.nupkg.sha512",
+        "roslynator.analyzers.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
     "runtime.native.System/4.3.0": {
       "sha512": "c/qWt2LieNZIj1jGnVNsE2Kl23Ya2aSTBuXMD6V7k9KWr6l16Tqdwq+hJScEpWER9753NWC8h96PaVNY5Ld7Jw==",
       "type": "package",
@@ -2551,6 +2583,25 @@
         "lib/netstandard1.0/_._",
         "runtime.native.system.4.3.0.nupkg.sha512",
         "runtime.native.system.nuspec"
+      ]
+    },
+    "SonarAnalyzer.CSharp/8.20.0.28934": {
+      "sha512": "7sorg1+g8sDdzyysEy/fwidXTjVhaVJbu/XZ//bkZJW9BOhXAdb2NV/ZS6VHl3ur2fYUQCFGkb9cZ6NbOI71FA==",
+      "type": "package",
+      "path": "sonaranalyzer.csharp/8.20.0.28934",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/Google.Protobuf.dll",
+        "analyzers/SonarAnalyzer.CFG.dll",
+        "analyzers/SonarAnalyzer.CSharp.dll",
+        "analyzers/SonarAnalyzer.dll",
+        "images/sonarsource_64.png",
+        "sonaranalyzer.csharp.8.20.0.28934.nupkg.sha512",
+        "sonaranalyzer.csharp.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
       ]
     },
     "SQLitePCLRaw.bundle_e_sqlite3/2.0.4": {
@@ -2624,6 +2675,31 @@
         "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll",
         "sqlitepclraw.provider.dynamic_cdecl.2.0.4.nupkg.sha512",
         "sqlitepclraw.provider.dynamic_cdecl.nuspec"
+      ]
+    },
+    "StyleCop.Analyzers/1.1.118": {
+      "sha512": "Onx6ovGSqXSK07n/0eM3ZusiNdB6cIlJdabQhWGgJp3Vooy9AaLS/tigeybOJAobqbtggTamoWndz72JscZBvw==",
+      "type": "package",
+      "path": "stylecop.analyzers/1.1.118",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "THIRD-PARTY-NOTICES.txt",
+        "analyzers/dotnet/cs/StyleCop.Analyzers.CodeFixes.dll",
+        "analyzers/dotnet/cs/StyleCop.Analyzers.dll",
+        "analyzers/dotnet/cs/de-DE/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/en-GB/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/es-MX/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/fr-FR/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/pl-PL/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/pt-BR/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/ru-RU/StyleCop.Analyzers.resources.dll",
+        "stylecop.analyzers.1.1.118.nupkg.sha512",
+        "stylecop.analyzers.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
       ]
     },
     "System.Collections/4.3.0": {
@@ -6235,28 +6311,32 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "DAL >= 1.0.0",
-      "Microsoft.EntityFrameworkCore >= 5.0.4"
+      "Microsoft.EntityFrameworkCore >= 5.0.4",
+      "Roslynator.Analyzers >= 3.1.0",
+      "SonarAnalyzer.CSharp >= 8.20.0.28934",
+      "StyleCop.Analyzers >= 1.1.118"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PC\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\1\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\source\\repos\\YourDVVSULTIMA\\YourDVVS\\YourDVVS\\BLL\\BLL.csproj",
+      "projectUniqueName": "C:\\Users\\1\\Source\\Repos\\KrisstinaL\\YourDVVS77\\YourDVVS\\BLL\\BLL.csproj",
       "projectName": "BLL",
-      "projectPath": "C:\\Users\\PC\\source\\repos\\YourDVVSULTIMA\\YourDVVS\\YourDVVS\\BLL\\BLL.csproj",
-      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\source\\repos\\YourDVVSULTIMA\\YourDVVS\\YourDVVS\\BLL\\obj\\",
+      "projectPath": "C:\\Users\\1\\Source\\Repos\\KrisstinaL\\YourDVVS77\\YourDVVS\\BLL\\BLL.csproj",
+      "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\1\\Source\\Repos\\KrisstinaL\\YourDVVS77\\YourDVVS\\BLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -6269,8 +6349,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\PC\\source\\repos\\YourDVVSULTIMA\\YourDVVS\\YourDVVS\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\Users\\PC\\source\\repos\\YourDVVSULTIMA\\YourDVVS\\YourDVVS\\DAL\\DAL.csproj"
+            "C:\\Users\\1\\Source\\Repos\\KrisstinaL\\YourDVVS77\\YourDVVS\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Users\\1\\Source\\Repos\\KrisstinaL\\YourDVVS77\\YourDVVS\\DAL\\DAL.csproj"
             }
           }
         }
@@ -6288,6 +6368,24 @@
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[5.0.4, )"
+          },
+          "Roslynator.Analyzers": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.1.0, )"
+          },
+          "SonarAnalyzer.CSharp": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[8.20.0.28934, )"
+          },
+          "StyleCop.Analyzers": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[1.1.118, )"
           }
         },
         "imports": [
@@ -6305,7 +6403,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }
