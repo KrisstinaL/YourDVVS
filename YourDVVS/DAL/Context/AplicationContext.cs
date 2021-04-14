@@ -30,7 +30,7 @@ namespace DAL.Context
                     .HasName("choises_pkey");
 
                 entity.ToTable("choices");
-                
+
                 entity.HasIndex(e => e.SubjectId).HasName("fki_choises_subject_subject_id");
 
                 entity.HasIndex(e => e.UserId)

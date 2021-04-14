@@ -13,6 +13,7 @@ using DAL.Context;
 using BLL.Interfaces;
 using BLL.Services;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Serilog;
 
 namespace YourDVVS
 {
@@ -59,7 +60,7 @@ namespace YourDVVS
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+            app.UseSerilogRequestLogging();
             app.UseRouting();
 
             app.UseAuthorization();

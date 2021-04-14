@@ -11275,42 +11275,37 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\1\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\ІРА\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1\\Source\\Repos\\KrisstinaL\\YourDVVS77\\YourDVVS\\TestProject\\TestProject.csproj",
+      "projectUniqueName": "C:\\Users\\ІРА\\source\\repos\\YourDVVSe\\YourDVVS\\TestProject\\TestProject.csproj",
       "projectName": "TestProject",
-      "projectPath": "C:\\Users\\1\\Source\\Repos\\KrisstinaL\\YourDVVS77\\YourDVVS\\TestProject\\TestProject.csproj",
-      "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1\\Source\\Repos\\KrisstinaL\\YourDVVS77\\YourDVVS\\TestProject\\obj\\",
+      "projectPath": "C:\\Users\\ІРА\\source\\repos\\YourDVVSe\\YourDVVS\\TestProject\\TestProject.csproj",
+      "packagesPath": "C:\\Users\\ІРА\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ІРА\\source\\repos\\YourDVVSe\\YourDVVS\\TestProject\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\ІРА\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\1\\Source\\Repos\\KrisstinaL\\YourDVVS77\\YourDVVS\\BLL\\BLL.csproj": {
-              "projectPath": "C:\\Users\\1\\Source\\Repos\\KrisstinaL\\YourDVVS77\\YourDVVS\\BLL\\BLL.csproj"
+            "C:\\Users\\ІРА\\source\\repos\\YourDVVSe\\YourDVVS\\BLL\\BLL.csproj": {
+              "projectPath": "C:\\Users\\ІРА\\source\\repos\\YourDVVSe\\YourDVVS\\BLL\\BLL.csproj"
             },
-            "C:\\Users\\1\\Source\\Repos\\KrisstinaL\\YourDVVS77\\YourDVVS\\YourDVVS\\YourDVVS.csproj": {
-              "projectPath": "C:\\Users\\1\\Source\\Repos\\KrisstinaL\\YourDVVS77\\YourDVVS\\YourDVVS\\YourDVVS.csproj"
+            "C:\\Users\\ІРА\\source\\repos\\YourDVVSe\\YourDVVS\\YourDVVS\\YourDVVS.csproj": {
+              "projectPath": "C:\\Users\\ІРА\\source\\repos\\YourDVVSe\\YourDVVS\\YourDVVS\\YourDVVS.csproj"
             }
           }
         }

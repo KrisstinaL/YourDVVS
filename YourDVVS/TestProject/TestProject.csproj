@@ -4,7 +4,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <NoWarn>NU1701</NoWarn>
+    <NoWarn>NU1701,SA1200,SA1600,SA1313,SA1101,SA1516</NoWarn>
     <IsPackable>false</IsPackable>
   </PropertyGroup>
 
