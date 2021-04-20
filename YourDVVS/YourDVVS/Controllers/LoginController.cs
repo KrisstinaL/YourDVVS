@@ -24,8 +24,9 @@ namespace YourDVVS.Controllers
         }
         public ActionResult Login()
         {
+            
             if (User.Identity.IsAuthenticated)
-                return RedirectToAction("Profile", "Account");
+                return Redirect("~/Account/Profile");
             return View();
         }
         private async Task Authenticate(User user)
@@ -42,7 +43,7 @@ namespace YourDVVS.Controllers
         public async Task<IActionResult> Authorize(User user)
         {
             if (User.Identity.IsAuthenticated)
-                return RedirectToAction("Profile", "Account");
+                return Redirect("~/Account/Profile");
             try
             {
                 if (accountManagement.Verify(user.Login, user.Password))
@@ -50,7 +51,7 @@ namespace YourDVVS.Controllers
                     User u = accountManagement.GetUser(user.Login);
                     await Authenticate(u);
                     logger.LogInformation("{@User} has authorized", u);
-                    return RedirectToAction("Profile", "Account");
+                    return Redirect("~/Account/Profile");
                 }
                 else
                 {
