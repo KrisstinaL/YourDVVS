@@ -16,7 +16,7 @@ namespace DAL.Entities
         public string Faculty { get; set; }
         public int LecturerId { get; set; }
         public int? NumberOfStudents { get; set; }
-        public int MaxNumberOfStudents { get; set; }
+        public int? MaxNumberOfStudents { get; set; }
         public int? Semester { get; set; }
 
         public virtual Lecturer Lecturer { get; set; }

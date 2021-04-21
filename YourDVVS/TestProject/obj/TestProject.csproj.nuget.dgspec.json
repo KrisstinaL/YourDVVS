@@ -1,39 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS\\YourDVVS\\TestProject\\TestProject.csproj": {}
+    "C:\\Users\\ІРА\\source\\repos\\YourDVVSi\\YourDVVS\\TestProject\\TestProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS\\YourDVVS\\BLL\\BLL.csproj": {
+    "C:\\Users\\ІРА\\source\\repos\\YourDVVSi\\YourDVVS\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS\\YourDVVS\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\ІРА\\source\\repos\\YourDVVSi\\YourDVVS\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS\\YourDVVS\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS\\YourDVVS\\BLL\\obj\\",
+        "projectPath": "C:\\Users\\ІРА\\source\\repos\\YourDVVSi\\YourDVVS\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\ІРА\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ІРА\\source\\repos\\YourDVVSi\\YourDVVS\\BLL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\ІРА\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS\\YourDVVS\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS\\YourDVVS\\DAL\\DAL.csproj"
+              "C:\\Users\\ІРА\\source\\repos\\YourDVVSi\\YourDVVS\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\ІРА\\source\\repos\\YourDVVSi\\YourDVVS\\DAL\\DAL.csproj"
               }
             }
           }
@@ -86,32 +82,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS\\YourDVVS\\DAL\\DAL.csproj": {
+    "C:\\Users\\ІРА\\source\\repos\\YourDVVSi\\YourDVVS\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS\\YourDVVS\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\ІРА\\source\\repos\\YourDVVSi\\YourDVVS\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS\\YourDVVS\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS\\YourDVVS\\DAL\\obj\\",
+        "projectPath": "C:\\Users\\ІРА\\source\\repos\\YourDVVSi\\YourDVVS\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\ІРА\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ІРА\\source\\repos\\YourDVVSi\\YourDVVS\\DAL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\ІРА\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -192,43 +184,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS\\YourDVVS\\TestProject\\TestProject.csproj": {
+    "C:\\Users\\ІРА\\source\\repos\\YourDVVSi\\YourDVVS\\TestProject\\TestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS\\YourDVVS\\TestProject\\TestProject.csproj",
+        "projectUniqueName": "C:\\Users\\ІРА\\source\\repos\\YourDVVSi\\YourDVVS\\TestProject\\TestProject.csproj",
         "projectName": "TestProject",
-        "projectPath": "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS\\YourDVVS\\TestProject\\TestProject.csproj",
-        "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS\\YourDVVS\\TestProject\\obj\\",
+        "projectPath": "C:\\Users\\ІРА\\source\\repos\\YourDVVSi\\YourDVVS\\TestProject\\TestProject.csproj",
+        "packagesPath": "C:\\Users\\ІРА\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ІРА\\source\\repos\\YourDVVSi\\YourDVVS\\TestProject\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\ІРА\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS\\YourDVVS\\BLL\\BLL.csproj": {
-                "projectPath": "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS\\YourDVVS\\BLL\\BLL.csproj"
+              "C:\\Users\\ІРА\\source\\repos\\YourDVVSi\\YourDVVS\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\ІРА\\source\\repos\\YourDVVSi\\YourDVVS\\BLL\\BLL.csproj"
               },
-              "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS\\YourDVVS\\YourDVVS\\YourDVVS.csproj": {
-                "projectPath": "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS\\YourDVVS\\YourDVVS\\YourDVVS.csproj"
+              "C:\\Users\\ІРА\\source\\repos\\YourDVVSi\\YourDVVS\\YourDVVS\\YourDVVS.csproj": {
+                "projectPath": "C:\\Users\\ІРА\\source\\repos\\YourDVVSi\\YourDVVS\\YourDVVS\\YourDVVS.csproj"
               }
             }
           }
@@ -312,47 +300,46 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS\\YourDVVS\\YourDVVS\\YourDVVS.csproj": {
+    "C:\\Users\\ІРА\\source\\repos\\YourDVVSi\\YourDVVS\\YourDVVS\\YourDVVS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS\\YourDVVS\\YourDVVS\\YourDVVS.csproj",
+        "projectUniqueName": "C:\\Users\\ІРА\\source\\repos\\YourDVVSi\\YourDVVS\\YourDVVS\\YourDVVS.csproj",
         "projectName": "YourDVVS",
-        "projectPath": "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS\\YourDVVS\\YourDVVS\\YourDVVS.csproj",
-        "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS\\YourDVVS\\YourDVVS\\obj\\",
+        "projectPath": "C:\\Users\\ІРА\\source\\repos\\YourDVVSi\\YourDVVS\\YourDVVS\\YourDVVS.csproj",
+        "packagesPath": "C:\\Users\\ІРА\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ІРА\\source\\repos\\YourDVVSi\\YourDVVS\\YourDVVS\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\ІРА\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS\\YourDVVS\\BLL\\BLL.csproj": {
-                "projectPath": "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS\\YourDVVS\\BLL\\BLL.csproj"
+              "C:\\Users\\ІРА\\source\\repos\\YourDVVSi\\YourDVVS\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\ІРА\\source\\repos\\YourDVVSi\\YourDVVS\\BLL\\BLL.csproj"
               },
-              "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS\\YourDVVS\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\1\\source\\repos\\KrisstinaL\\YourDVVS\\YourDVVS\\DAL\\DAL.csproj"
+              "C:\\Users\\ІРА\\source\\repos\\YourDVVSi\\YourDVVS\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\ІРА\\source\\repos\\YourDVVSi\\YourDVVS\\DAL\\DAL.csproj"
               }
             }
           }
@@ -448,7 +435,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
