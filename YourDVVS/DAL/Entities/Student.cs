@@ -6,7 +6,10 @@ namespace DAL.Entities
 {
     public partial class Student
     {
-        public int Id { get; set; }
+        public Student()
+        {
+            StudentsChoices = new HashSet<StudentsChoice>();
+        }
         public int UserId { get; set; }
         public int? Course { get; set; }
 

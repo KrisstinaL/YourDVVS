@@ -3,14 +3,16 @@ using System;
 using DAL.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace DAL.Migrations
 {
     [DbContext(typeof(AplicationContext))]
-    partial class AplicationContextModelSnapshot : ModelSnapshot
+    [Migration("20210427155257_UpdateSubjectTable")]
+    partial class UpdateSubjectTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -21,6 +23,9 @@ namespace DAL.Migrations
                     b.Property<int>("UserId")
                         .HasColumnType("INTEGER")
                         .HasColumnName("user_id");
+
+                    b.Property<int>("Id")
+                        .HasColumnType("INTEGER");
 
                     b.HasKey("UserId")
                         .HasName("lecturer_pkey");
@@ -58,6 +63,9 @@ namespace DAL.Migrations
                         .HasColumnType("INTEGER")
                         .HasColumnName("course");
 
+                    b.Property<int>("Id")
+                        .HasColumnType("INTEGER");
+
                     b.HasKey("UserId")
                         .HasName("student_pkey");
 
@@ -76,6 +84,9 @@ namespace DAL.Migrations
                     b.Property<int>("SubjectId")
                         .HasColumnType("INTEGER")
                         .HasColumnName("subject_id");
+
+                    b.Property<int>("Id")
+                        .HasColumnType("INTEGER");
 
                     b.HasKey("UserId", "SubjectId")
                         .HasName("choises_pkey");
@@ -137,7 +148,7 @@ namespace DAL.Migrations
 
             modelBuilder.Entity("DAL.Entities.User", b =>
                 {
-                    b.Property<int>("UserId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER")
                         .HasColumnName("user_id");
@@ -178,7 +189,7 @@ namespace DAL.Migrations
                         .HasColumnType("INTEGER")
                         .HasColumnName("role");
 
-                    b.HasKey("UserId")
+                    b.HasKey("Id")
                         .HasName("users_pkey");
 
                     b.HasIndex("Login")

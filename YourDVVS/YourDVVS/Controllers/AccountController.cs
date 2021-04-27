@@ -29,7 +29,7 @@ namespace YourDVVS.Controllers
         public IActionResult Profile()
         {
             var user = accountManagement.GetUser(User.Identity.Name);
-            var subjects = subjectManagement.GetStudentsChoice(user.Id);
+            var subjects = subjectManagement.GetStudentsChoice(user.UserId);
             ViewData["FirstName"] = user.FirstName;
             ViewData["LastName"] = user.LastName;
             ViewData["MiddleName"] = user.MiddleName;

@@ -34,7 +34,7 @@ namespace YourDVVS.Controllers
                 ViewData["Information"] = "";
                 if (user.Role == 3)
                 {
-                    var student = accountManagement.GetStudent(user.Id);
+                    var student = accountManagement.GetStudent(user.UserId);
                     if (student.Course == 1)
                     {
                         subjectsList = subjectManagement.GetSubjects(3);
@@ -73,7 +73,7 @@ namespace YourDVVS.Controllers
                 ViewData["Information"] = "";
                 if (user.Role == 3)
                 {
-                    var student = accountManagement.GetStudent(user.Id);
+                    var student = accountManagement.GetStudent(user.UserId);
                     if (student.Course == 1)
                     {
                         subjectsList = subjectManagement.GetSubjects(4);
@@ -138,7 +138,7 @@ namespace YourDVVS.Controllers
             public void MakeSubjectChoice(int SubjId)
             {
                 User user = accountManagement.GetUser(User.Identity.Name);
-                subjectManagement.MakeSubjectChoice(user.Id, SubjId);
+                subjectManagement.MakeSubjectChoice(user.UserId, SubjId);
                 logger.LogInformation("{@User} has made final choice - subject with id {Id} choosen", user, SubjId);
             }
 
@@ -146,7 +146,7 @@ namespace YourDVVS.Controllers
             public async Task<IActionResult> AddNewSubject(Subject subject)
             {
                 User user = accountManagement.GetUser(User.Identity.Name);
-                if (user.Role == 2) { subject.LecturerId = user.Id; }
+                if (user.Role == 2) { subject.LecturerId = user.UserId; }
                 if (!String.IsNullOrEmpty(subject.Name) && !String.IsNullOrEmpty(subject.Description) && !String.IsNullOrEmpty(subject.Faculty) && !String.IsNullOrEmpty(subject.Lecturer.User.LastName) && subject.Semester != 0)
                 {
                     if (user.Role != 2) { subject.LecturerId = accountManagement.GetLecturerId(subject.Lecturer.User.LastName); }

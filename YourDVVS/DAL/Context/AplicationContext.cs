@@ -6,7 +6,7 @@ using System.Text;
 
 namespace DAL.Context
 {
-    public class AplicationContext : DbContext
+    public partial class AplicationContext : DbContext
     {
         public AplicationContext() { }
         protected override void OnConfiguring(DbContextOptionsBuilder options)
@@ -21,6 +21,12 @@ namespace DAL.Context
         {
             Database.EnsureCreated();
         }
+        public virtual DbSet<StudentsChoice> StudentsChoice { get; set; }
+        public virtual DbSet<Lecturer> Lecturer { get; set; }
+        public virtual DbSet<Period> Period { get; set; }
+        public virtual DbSet<Student> Student { get; set; }
+        public virtual DbSet<Subject> Subject { get; set; }
+        public virtual DbSet<User> User { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -138,11 +144,18 @@ namespace DAL.Context
 
                 entity.Property(e => e.Semester).HasColumnName("semester");
 
+                
+                entity.HasOne(d => d.Lecturer)
+                    .WithMany(p => p.Subjects)
+                    .HasForeignKey(d => d.LecturerId)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("subject_lecturer_user_id");
+
             });
 
             modelBuilder.Entity<User>(entity =>
             {
-                entity.HasKey(e => e.Id)
+                entity.HasKey(e => e.UserId)
                     .HasName("users_pkey");
 
                 entity.ToTable("users");
@@ -151,7 +164,7 @@ namespace DAL.Context
                     .HasName("users_login_key")
                     .IsUnique();
 
-                entity.Property(e => e.Id).HasColumnName("user_id");
+                entity.Property(e => e.UserId).HasColumnName("user_id");
 
                 entity.Property(e => e.FirstName)
                     .IsRequired()
@@ -179,13 +192,11 @@ namespace DAL.Context
 
                 entity.Property(e => e.Role).HasColumnName("role");
             });
+            OnModelCreatingPartial(modelBuilder);
         }
 
-        public virtual DbSet<StudentsChoice> StudentsChoice { get; set; }
-        public virtual DbSet<Lecturer> Lecturer { get; set; }
-        public virtual DbSet<Period> Period { get; set; }
-        public virtual DbSet<Student> Student { get; set; }
-        public virtual DbSet<Subject> Subject { get; set; }
-        public virtual DbSet<User> User { get; set; }
+        partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+
+
     }
 }

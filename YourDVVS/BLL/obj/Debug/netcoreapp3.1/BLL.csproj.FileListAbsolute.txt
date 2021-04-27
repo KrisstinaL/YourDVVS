@@ -99,3 +99,15 @@ C:\Users\ІРА\source\repos\YourDVVSi\YourDVVS\BLL\obj\Debug\netcoreapp3.1\BLL.
 C:\Users\ІРА\source\repos\YourDVVSi\YourDVVS\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CopyComplete
 C:\Users\ІРА\source\repos\YourDVVSi\YourDVVS\BLL\obj\Debug\netcoreapp3.1\BLL.dll
 C:\Users\ІРА\source\repos\YourDVVSi\YourDVVS\BLL\obj\Debug\netcoreapp3.1\BLL.pdb
+C:\Users\1\source\repos\KrisstinaL\YourDVVS3\YourDVVS\BLL\bin\Debug\netcoreapp3.1\BLL.deps.json
+C:\Users\1\source\repos\KrisstinaL\YourDVVS3\YourDVVS\BLL\bin\Debug\netcoreapp3.1\BLL.dll
+C:\Users\1\source\repos\KrisstinaL\YourDVVS3\YourDVVS\BLL\bin\Debug\netcoreapp3.1\BLL.pdb
+C:\Users\1\source\repos\KrisstinaL\YourDVVS3\YourDVVS\BLL\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\1\source\repos\KrisstinaL\YourDVVS3\YourDVVS\BLL\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\1\source\repos\KrisstinaL\YourDVVS3\YourDVVS\BLL\obj\Debug\netcoreapp3.1\BLL.csprojAssemblyReference.cache
+C:\Users\1\source\repos\KrisstinaL\YourDVVS3\YourDVVS\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfoInputs.cache
+C:\Users\1\source\repos\KrisstinaL\YourDVVS3\YourDVVS\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfo.cs
+C:\Users\1\source\repos\KrisstinaL\YourDVVS3\YourDVVS\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CoreCompileInputs.cache
+C:\Users\1\source\repos\KrisstinaL\YourDVVS3\YourDVVS\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CopyComplete
+C:\Users\1\source\repos\KrisstinaL\YourDVVS3\YourDVVS\BLL\obj\Debug\netcoreapp3.1\BLL.dll
+C:\Users\1\source\repos\KrisstinaL\YourDVVS3\YourDVVS\BLL\obj\Debug\netcoreapp3.1\BLL.pdb

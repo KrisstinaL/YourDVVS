@@ -6,7 +6,6 @@ namespace DAL.Entities
 {
     public partial class StudentsChoice
     {
-        public int Id { get; set; }
         public int UserId { get; set; }
         public int SubjectId { get; set; }
 

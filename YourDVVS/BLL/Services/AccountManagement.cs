@@ -66,7 +66,7 @@
 
         public User GetLecturer(int id)
         {
-            var user = database.User.FirstOrDefault(u => u.Id == id);
+            var user = database.User.FirstOrDefault(u => u.UserId == id);
             return user;
         }
 
@@ -86,13 +86,13 @@
         {
             var lecturersList = database.User.ToArray().Where(s => s.Role == 2).Select(s => s).ToArray();
             string[] titleParts = name.Split(' ', StringSplitOptions.RemoveEmptyEntries);
-            int lId = lecturersList.Where(r => name.Any(t => (r.LastName + r.FirstName + r.MiddleName).Contains(t))).Select(r => r).FirstOrDefault().Id;
+            int lId = lecturersList.Where(r => name.Any(t => (r.LastName + r.FirstName + r.MiddleName).Contains(t))).Select(r => r).FirstOrDefault().UserId;
             return lId;
         }
 
         public Student GetStudent(int id)
         {
-            var user = database.Student.FirstOrDefault(u => u.Id == id);
+            var user = database.Student.FirstOrDefault(u => u.UserId == id);
             return user;
         }
 

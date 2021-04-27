@@ -30,7 +30,7 @@ namespace TestProject
                         LastName = "testLastName",
                         Password="Qqwerty",
                         Role=1,
-                        Id=1
+                        UserId=1
                     },
                     new User
                     {
@@ -40,7 +40,7 @@ namespace TestProject
                         LastName = "testLastName1",
                         Password="Qqwerty",
                         Role=1,
-                        Id=2
+                        UserId=2
                     },
                     new User
                     {
@@ -50,7 +50,7 @@ namespace TestProject
                         LastName = "testLastName2",
                         Password="Qqwerty",
                         Role=1,
-                        Id=3
+                        UserId=3
                     },
                     new User
                     {
@@ -60,7 +60,7 @@ namespace TestProject
                         LastName = "testLastName3",
                         Password="Qqwerty",
                         Role=1,
-                        Id=4
+                        UserId=4
                     },
                     new User
                     {
@@ -70,7 +70,7 @@ namespace TestProject
                         LastName = "testLastName4",
                         Password="Qqwerty",
                         Role=1,
-                        Id=5
+                        UserId=5
                     },
                     new User
                     {
@@ -80,7 +80,7 @@ namespace TestProject
                         LastName = "testLastName5",
                         Password="Qqwerty",
                         Role=1,
-                        Id=6
+                        UserId=6
                     }
                 };
         //OddTest
@@ -100,7 +100,7 @@ namespace TestProject
                 mock.Mock<AplicationContext>().SetupGet(x => x.User).Returns(mockSet.Object);
                 var AccountManagementMock = mock.Create<AccountManagement>();
                 var actualUser = AccountManagementMock.GetUser(actualLogin);
-                Assert.Equal(expectedId, actualUser.Id);
+                Assert.Equal(expectedId, actualUser.UserId);
             }
         }
         [Fact]
