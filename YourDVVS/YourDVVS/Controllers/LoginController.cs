@@ -43,7 +43,7 @@ namespace YourDVVS.Controllers
         public async Task<IActionResult> Authorize(User user)
         {
             if (User.Identity.IsAuthenticated)
-                return Redirect("~/Account/Profile");
+                return RedirectToAction("Profile", "Account");
             try
             {
                 if (accountManagement.Verify(user.Login, user.Password))

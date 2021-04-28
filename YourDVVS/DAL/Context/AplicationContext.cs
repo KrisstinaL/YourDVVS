@@ -11,11 +11,6 @@ namespace DAL.Context
         public AplicationContext() { }
         protected override void OnConfiguring(DbContextOptionsBuilder options)
             => options.UseSqlite("FileName=yourDVVS.db");
-        /*public AppContext(DbContextOptions<AppContext> options)
-            : base(options)
-        {
-            Database.EnsureCreated();
-        }*/
         public AplicationContext(DbContextOptions<AplicationContext> options)
     : base(options)
         {

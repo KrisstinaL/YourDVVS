@@ -147,7 +147,7 @@ namespace YourDVVS.Controllers
             {
                 User user = accountManagement.GetUser(User.Identity.Name);
                 if (user.Role == 2) { subject.LecturerId = user.UserId; }
-                if (!String.IsNullOrEmpty(subject.Name) && !String.IsNullOrEmpty(subject.Description) && !String.IsNullOrEmpty(subject.Faculty) && !String.IsNullOrEmpty(subject.Lecturer.User.LastName) && subject.Semester != 0)
+                if (!String.IsNullOrEmpty(subject.Name) && !String.IsNullOrEmpty(subject.Description) && !String.IsNullOrEmpty(subject.Faculty) && subject.Semester != 0)
                 {
                     if (user.Role != 2) { subject.LecturerId = accountManagement.GetLecturerId(subject.Lecturer.User.LastName); }
                     subjectManagement.AddNewSubject(subject.Name, subject.Description, subject.Faculty, subject.LecturerId, subject.Semester);

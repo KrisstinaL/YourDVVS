@@ -754,3 +754,4 @@ C:\Users\1\source\repos\KrisstinaL\YourDVVS3\YourDVVS\TestProject\obj\Debug\netc
 C:\Users\1\source\repos\KrisstinaL\YourDVVS3\YourDVVS\TestProject\obj\Debug\netcoreapp3.1\TestProject.pdb
 C:\Users\1\source\repos\KrisstinaL\YourDVVS3\YourDVVS\TestProject\obj\Debug\netcoreapp3.1\TestProject.genruntimeconfig.cache
 C:\Users\1\source\repos\KrisstinaL\YourDVVS3\YourDVVS\TestProject\bin\Debug\netcoreapp3.1\YourDVVS.StaticWebAssets.xml
+C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\TestProject\bin\Debug\netcoreapp3.1\Logs\log.json

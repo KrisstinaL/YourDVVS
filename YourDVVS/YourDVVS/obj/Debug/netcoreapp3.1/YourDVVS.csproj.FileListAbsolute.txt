@@ -2039,3 +2039,6 @@ C:\Users\1\source\repos\KrisstinaL\YourDVVS3\YourDVVS\YourDVVS\obj\Debug\netcore
 C:\Users\1\source\repos\KrisstinaL\YourDVVS3\YourDVVS\YourDVVS\obj\Debug\netcoreapp3.1\YourDVVS.dll
 C:\Users\1\source\repos\KrisstinaL\YourDVVS3\YourDVVS\YourDVVS\obj\Debug\netcoreapp3.1\YourDVVS.pdb
 C:\Users\1\source\repos\KrisstinaL\YourDVVS3\YourDVVS\YourDVVS\obj\Debug\netcoreapp3.1\YourDVVS.genruntimeconfig.cache
+C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\bin\Debug\netcoreapp3.1\Logs\log.json
+C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\obj\Debug\netcoreapp3.1\Razor\Views\Subject\AddNewSubject.cshtml.g.cs
+C:\Users\PC\source\repos\YourDVVSULTIMA\YourDVVS\YourDVVS\YourDVVS\obj\Debug\netcoreapp3.1\Razor\Views\Subject\SubjectInfo.cshtml.g.cs
