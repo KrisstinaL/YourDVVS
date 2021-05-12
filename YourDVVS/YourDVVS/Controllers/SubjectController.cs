@@ -12,8 +12,7 @@ namespace YourDVVS.Controllers
 {
     [Authorize]
     public class SubjectController : Controller
-    {
-        
+    {        
             private readonly IAccountManagement accountManagement;
             private readonly ISubjectManagement subjectManagement;
             private readonly ILogger<SubjectController> logger;
