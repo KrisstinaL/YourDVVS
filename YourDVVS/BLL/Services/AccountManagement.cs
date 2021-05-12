@@ -40,7 +40,7 @@
                 database.User.Add(new User { LastName = lastName, FirstName = firstName, MiddleName = middleName, Role = role, Faculty = faculty, Login = login, Password = password, Lecturer = new Lecturer { } });
             }
             else {
-                _ = database.User.Add(new User { LastName = lastName, FirstName = firstName, MiddleName = middleName, Role = role, Faculty = faculty, Login = login, Password = password, Student = new Student { } });
+                database.User.Add(new User { LastName = lastName, FirstName = firstName, MiddleName = middleName, Role = role, Faculty = faculty, Login = login, Password = password, Student = new Student { } });
             }
             database.SaveChanges();
         }
